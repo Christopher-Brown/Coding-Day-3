@@ -1,0 +1,30 @@
+body {
+    background-color: palevioletred
+}
+/* mobile phone*/
+@media (min-width:768px){
+    body{
+        background-color: papayawhip
+    }
+}
+
+/* tablet */
+@media (min-width: 1024px){
+    body {
+        background-color: chartreuse
+    }
+}
+/* laptop/desktop */
+@media (min-width: 2048px){
+    body{
+        background-color: thistle
+    }
+}
+
+
+.box{
+    background-color:  fuchsia;
+    height: 210px;
+    width: 140px;
+    border: 4px solid coral
+}
